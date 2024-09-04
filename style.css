@@ -31,10 +31,12 @@ footer > p {
 
 #tagger-points {
   color: DeepPink;
+  display: inline-block;
 }
 
 #runner-points {
   color: DodgerBlue;
+  display: inline-block;
 }
 
 #player-tagger {
