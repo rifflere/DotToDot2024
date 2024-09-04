@@ -41,7 +41,7 @@ function On_Load(){
   
   //Draw_Screen();
 }
-
+/*
 //Check for point conditions
 function CheckPoints(){
   Check_is_bopped();
@@ -94,4 +94,4 @@ function Move(Player, deltaPosition){
     Player.pos[1] = maxCoord;
   }
   Draw_Screen();
-}
+}*/
