@@ -4,8 +4,8 @@ console.log("I can load the .js file");
 // player_tagger = document.getElementById("player_tagger");
 // player_runner = document.getElementById("player_runner");
 
-minCoord = 0;
-maxCoord = 50;
+var minCoord = 0;
+var maxCoord = 50;
 
 console.log("I initialized static variables");
 
