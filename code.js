@@ -19,3 +19,19 @@ While(True){
 Draw_Screen(){
   //Find player locations
 }
+
+Left(Player){
+  Move(Player, [-1,0]);
+}
+Right(Player){
+  Move(Player, [1,0]);
+}
+Up(Player){
+  Move(Player, [0,1]);
+}
+Down(Player){
+  Move(Player, [0,-1]);
+}
+
+Move(Player, deltaPosition){
+}
