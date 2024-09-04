@@ -6,9 +6,9 @@ minCoord = 0;
 maxCoord = 50;
 
 //Check key press
-while(true){
-  document.onkeydown = checkKey;
-}
+//while(true){
+  //document.onkeydown = checkKey;
+//}
 
 function checkKey(e) {
   e = e || window.event;
