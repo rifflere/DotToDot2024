@@ -1,4 +1,4 @@
-console.log("I can load the .js file");
+log("I can load the .js file");
 
 //Set up global variables
 player_tagger = document.getElementById("player_tagger");
@@ -39,7 +39,7 @@ function On_Load(){
   player_tagger.num_points = 0;
   player_runner.num_points = 0;
 
-  console.log("Successfully loaded");
+  log("Successfully loaded");
   
   //Draw_Screen();
 }
