@@ -19,6 +19,12 @@ While(True){
   Draw_Screen();
 }
 
+//Check for point conditions
+Check_is_bopped(){
+}
+Check_time_points(){
+}
+
 Draw_Screen(){
   //Find player locations
 }
