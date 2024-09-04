@@ -16,6 +16,10 @@ footer {
   height: 2.5 rem;            /* Footer height */
 }
 
+footer > p {
+  padding: 20 px;
+}
+
 .player {
   width: 20 px;
     height: 20 px;
