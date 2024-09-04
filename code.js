@@ -10,7 +10,7 @@ while(true){
   document.onkeydown = checkKey;
 }
 
-checkKey(e) {
+function checkKey(e) {
   e = e || window.event;
   if (e.keyCode == '38') {
     // up arrow
@@ -27,7 +27,7 @@ checkKey(e) {
 }
 
 //Initiate starting variables
-On_Load(){
+function On_Load(){
   player_tagger.pos = [0,0];
   plater_runner.pos = [0,10];
 
@@ -41,19 +41,19 @@ On_Load(){
 }
 
 //Check for point conditions
-CheckPoints(){
+function CheckPoints(){
   Check_is_bopped();
   Check_time_points();
 }
 // Helper functions for point conditions
-Check_is_bopped(){
+function Check_is_bopped(){
   player_tagger.num_points++;
 }
-Check_time_points(){
+function Check_time_points(){
   player_runner.num_points++;
 }
 
-Draw_Screen(){
+function Draw_Screen(){
   player_tagger.style.left = `$[player_tagger.pos[0]]px`;
   player_runner.style.left = `$[player_runner.pos[0]]px`;
 
@@ -61,20 +61,20 @@ Draw_Screen(){
   player_runner.style.up = `$[player_runner.pos[1]]px`;
 }
 
-Left(Player){
+function Left(Player){
   Move(Player, [-1,0]);
 }
-Right(Player){
+function Right(Player){
   Move(Player, [1,0]);
 }
-Up(Player){
+function Up(Player){
   Move(Player, [0,1]);
 }
-Down(Player){
+function Down(Player){
   Move(Player, [0,-1]);
 }
 
-Move(Player, deltaPosition){
+function Move(Player, deltaPosition){
   Player.pos = [Player.pos+deltaPosition[0], Player.pos+deltaPosition[1]];
   
   //Figure out whether it is trying to go off the grid
