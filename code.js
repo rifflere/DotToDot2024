@@ -11,18 +11,25 @@ On_Load(){
   plater_runner.pos = [0,10];
 
   player_tagger.color = "red";
-  player_runner.color = "blue";  
-}
+  player_runner.color = "blue";
 
-// Game loop
-While(True){ 
+  player_tagger.num_points = 0;
+  player_runner.num_points = 0;
+  
   Draw_Screen();
 }
 
 //Check for point conditions
+CheckPoints(){
+  Check_is_bopped();
+  Check_time_points();
+}
+// Helper functions for point conditions
 Check_is_bopped(){
+  player_tagger.num_points++;
 }
 Check_time_points(){
+  player_runner.num_points++;
 }
 
 Draw_Screen(){
@@ -59,4 +66,5 @@ Move(Player, deltaPosition){
   if(Player.pos[1] > maxCoord){
     Player.pos[1] = maxCoord;
   }
+  Draw_Screen();
 }
