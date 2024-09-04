@@ -1,8 +1,8 @@
 console.log("I can load the .js file");
 
 //Set up global variables
-player_tagger = document.getElementById("player_tagger");
-player_runner = document.getElementById("player_runner");
+// player_tagger = document.getElementById("player_tagger");
+// player_runner = document.getElementById("player_runner");
 
 minCoord = 0;
 maxCoord = 50;
