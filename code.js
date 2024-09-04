@@ -13,7 +13,7 @@ console.log("I initialized static variables");
 //while(true){
   //document.onkeydown = checkKey;
 //}
-
+/*
 function checkKey(e) {
   e = e || window.event;
   if (e.keyCode == '38') {
@@ -99,3 +99,4 @@ function Move(Player, deltaPosition){
   }
   Draw_Screen();
 }*/
+*/
