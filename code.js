@@ -1,6 +1,6 @@
 //Set up global variables
-player_tagger = true;
-player_runner = true;
+player_tagger = document.getElementById("player_tagger");
+player_runner = document.getElementById("player_runner");
 
 //Initiate starting variables
 On_Load(){
@@ -8,7 +8,7 @@ On_Load(){
   plater_runner.pos = [0,10];
 
   player_tagger.color = "red";
-  player_runner.color = "blue";
+  player_runner.color = "blue";  
 }
 
 // Game loop
