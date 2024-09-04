@@ -29,6 +29,14 @@ footer > p {
   font-size: 25 px;
 }
 
+#tagger-points {
+  color: DeepPink;
+}
+
+#runner-points {
+  color: DodgerBlue;
+}
+
 #player-tagger {
   background-color: DeepPink;
 }
