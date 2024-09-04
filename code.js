@@ -1,4 +1,4 @@
-log("I can load the .js file");
+console.log("I can load the .js file");
 
 //Set up global variables
 player_tagger = document.getElementById("player_tagger");
