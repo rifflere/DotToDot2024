@@ -2,11 +2,11 @@ body {
   background-color: beige;
 }
 
-h1, h2 {
+h1 {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-table {
-  background-color: red;
-  border-bottom: 1px solid yellow;
+footer {
+  color: grey;
+  font-size: 8px;
 }
