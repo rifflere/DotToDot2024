@@ -13,16 +13,16 @@ while(true){
 function checkKey(e) {
   e = e || window.event;
   if (e.keyCode == '38') {
-    // up arrow
+    Up(player_tagger);
   }
   else if (e.keyCode == '40') {
-      // down arrow
+      Down(player_tagger);
   }
   else if (e.keyCode == '37') {
-     // left arrow
+     Left(player_tagger);
   }
   else if (e.keyCode == '39') {
-   // right arrow
+    Right(player_tagger);
   }
 }
 
