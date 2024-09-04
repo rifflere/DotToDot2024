@@ -5,6 +5,27 @@ player_runner = document.getElementById("player_runner");
 minCoord = 0;
 maxCoord = 50;
 
+//Check key press
+while(true){
+  document.onkeydown = checkKey;
+}
+
+checkKey(e) {
+  e = e || window.event;
+  if (e.keyCode == '38') {
+    // up arrow
+  }
+  else if (e.keyCode == '40') {
+      // down arrow
+  }
+  else if (e.keyCode == '37') {
+     // left arrow
+  }
+  else if (e.keyCode == '39') {
+   // right arrow
+  }
+}
+
 //Initiate starting variables
 On_Load(){
   player_tagger.pos = [0,0];
