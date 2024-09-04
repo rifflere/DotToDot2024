@@ -3,7 +3,7 @@ player_tagger = true;
 player_runner = true;
 
 //Initiate starting variables
-On_Load(){ //What is the actual name of this function?
+On_Load(){
   player_tagger.pos = [0,0];
   plater_runner.pos = [0,10];
 
