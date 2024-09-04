@@ -10,6 +10,10 @@ footer {
   background-color: black;
   color: DarkGrey;
   font-size: 8 px;
+  position: absolute;
+  bottom: 0;
+  width: 100 %;
+  height: 2.5 rem;            /* Footer height */
 }
 
 .player {
