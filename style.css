@@ -25,6 +25,10 @@ footer > p {
     height: 20 px;
 }
 
+#scores: {
+  font-size: 25 px;
+}
+
 #player-tagger {
   background-color: DeepPink;
 }
