@@ -5,3 +5,8 @@ body {
 h1, h2 {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+
+table {
+  width: 100%;
+  height: 100%;
+}
