@@ -7,6 +7,8 @@ player_runner = document.getElementById("player_runner");
 minCoord = 0;
 maxCoord = 50;
 
+console.log("I initialized static variables");
+
 //Check key press
 //while(true){
   //document.onkeydown = checkKey;
