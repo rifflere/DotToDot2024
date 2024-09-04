@@ -25,17 +25,24 @@ footer > p {
     height: 20 px;
 }
 
+.tagger {
+    color: DeepPink;
+}
+
+.runner{
+    color: DodgerBlue;
+}
+
 #scores: {
   font-size: 25 px;
 }
 
 #tagger-points {
-  color: DeepPink;
   display: inline-block;
 }
 
 #runner-points {
-  color: DodgerBlue;
+
   display: inline-block;
 }
 
