@@ -38,7 +38,6 @@ Draw_Screen(){
 
   player_tagger.style.up = `$[player_tagger.pos[1]]px`;
   player_runner.style.up = `$[player_runner.pos[1]]px`;
-  //Find player locations
 }
 
 Left(Player){
