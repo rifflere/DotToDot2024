@@ -33,6 +33,11 @@ Check_time_points(){
 }
 
 Draw_Screen(){
+  player_tagger.style.left = `$[player_tagger.pos[0]]px`;
+  player_runner.style.left = `$[player_runner.pos[0]]px`;
+
+  player_tagger.style.up = `$[player_tagger.pos[1]]px`;
+  player_runner.style.up = `$[player_runner.pos[1]]px`;
   //Find player locations
 }
 
