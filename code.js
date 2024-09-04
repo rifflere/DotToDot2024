@@ -79,17 +79,17 @@ function Draw_Screen(){
   runner.icon.style.up = `$[runner.icon.index[1]]px`;
 }
 
-function Left(activePlayer){
-  Move(activePlayer, [-1,0]);
+function Left(ap){
+  Move(ap, [-1,0]);
 }
-function Right(activePlayer){
-  Move(activePlayer, [1,0]);
+function Right(ap){
+  Move(ap, [1,0]);
 }
-function Up(activePlayer){
-  Move(activePlayer, [0,1]);
+function Up(ap){
+  Move(ap, [0,1]);
 }
-function Down(activePlayer){
-  Move(activePlayer, [0,-1]);
+function Down(ap){
+  Move(ap, [0,-1]);
 }
 
 function Move(activePlayer, deltaPosition){
