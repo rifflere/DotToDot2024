@@ -39,7 +39,7 @@ function On_Load(){
   player_tagger.num_points = 0;
   player_runner.num_points = 0;
 
-  log("Successfully loaded");
+  console.log("Successfully loaded");
   
   //Draw_Screen();
 }
