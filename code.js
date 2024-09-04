@@ -36,8 +36,10 @@ function On_Load(){
 
   player_tagger.num_points = 0;
   player_runner.num_points = 0;
+
+  Console.Log("Successfully loaded");
   
-  Draw_Screen();
+  //Draw_Screen();
 }
 
 //Check for point conditions
