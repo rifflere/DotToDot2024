@@ -20,6 +20,11 @@ footer > p {
   padding-left: 200 px;
 }
 
+.gridBlock{
+  width: 20 px;
+  height: 20 px;
+}
+
 .player {
   width: 20 px;
     height: 20 px;
