@@ -21,6 +21,7 @@ footer > p {
 }
 
 .gridBlock{
+  display: grid;
   width: 20 px;
   height: 20 px;
 }
