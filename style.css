@@ -20,15 +20,22 @@ footer > p {
   padding-left: 200 px;
 }
 
-.gridBlock{
+.grid{
   display: grid;
+  grid-template-columns: repeat (auto-fill, minmax (200 px, 1 fr));
+  grid-auto-rows: minmax (150 px, auto);
+  grid-gap: 1 em;
+}
+
+.gridUnit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 20 px;
   height: 20 px;
 }
 
 .player {
-  width: 20 px;
-    height: 20 px;
 }
 
 .tagger {
