@@ -22,7 +22,7 @@ footer > p {
 
 .grid{
   display: grid;
-  grid-template-columns: repeat (auto-fill, minmax (200 px, 1 fr));
+  grid-template-columns: repeat (auto-fill, minmax (20 px, 1 fr));
   grid-auto-rows: minmax (150 px, auto);
   grid-gap: 1 em;
 }
@@ -30,7 +30,7 @@ footer > p {
 .gridUnit{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 20 px;
   height: 20 px;
 }
