@@ -33,6 +33,7 @@ footer > p {
   justify-content: space-between;
   width: 200 px;
   height: 200 px;
+  background-color: Black
 }
 
 .player {
